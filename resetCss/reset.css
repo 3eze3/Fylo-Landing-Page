@@ -2,7 +2,7 @@
 
 :root {
   --negro: #393939;
-  --font-Barlow-Semi-Condensed: 'Barlow Semi Condensed', sans-serif;
+  --font-Barlow-Semi-Condensed: 'Open Sans', sans-serif;
   --font-size-body: 13px
 }
 
@@ -31,6 +31,13 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   vertical-align: baseline;
+}
+
+header,
+section {
+  padding-inline: 4.5rem;
+  max-width: 90rem;
+  margin-inline: auto;
 }
 
 img,
