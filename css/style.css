@@ -8,6 +8,8 @@
   /* Neutral */
   --light-grayish-blue: hsl(240, 75%, 98%);
   --light-gray: hsl(0, 0%, 75%);
-  --font-family: 'Open Sans', sans-serif;
-  --font-family: 'Raleway', sans-serif;
+  --font-family-Open-Sans: 'Open Sans', sans-serif;
+  --font-family-Raleway: 'Raleway', sans-serif;
+  --weight-400: 400;
+  --weight-600: 600;
 }
