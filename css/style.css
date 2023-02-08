@@ -13,3 +13,32 @@
   --weight-400: 400;
   --weight-600: 600;
 }
+
+.introduction {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 4rem;
+  margin-bottom: 1.25rem;
+}
+
+.introduction__logo {
+  width: 11.95rem;
+}
+
+.introduction__navbar {
+  width: 20rem;
+}
+
+.navbar__list {
+  display: flex;
+  gap: .35rem;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar__link {
+  font-size: 1.04em;
+  color: var(--very-dark-blue);
+  font-weight: var(--weight-400);
+}
