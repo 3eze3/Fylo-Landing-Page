@@ -22,11 +22,11 @@
   </head>
   <body>
     <!-- Start header  -->
-    <header class="introduction">
-      <a href="#" class="introduction__logo">
+    <header class="header">
+      <a href="#" class="header__logo">
         <img src="images/logo.svg" alt="Fylo" />
       </a>
-      <nav class="introduction__navbar navbar" aria-label="Main Navigation">
+      <nav class="header__navbar navbar" aria-label="Main Navigation">
         <ul class="navbar__list">
           <li class="navbar__item">
             <a href="#" class="navbar__link">Features</a>
@@ -41,5 +41,36 @@
       </nav>
     </header>
     <!-- End header  -->
+    <!-- Fisrt-Section -->
+    <main class="content">
+      <section class="content__introduction introduction">
+        <div class="introduction__wrapper">
+          <h1 class="introduction__title">
+            All your files in one secure location, accessible anywhere.
+          </h1>
+          <p class="introduction__description">
+            Fylo stores your most important files in one secure location. Access
+            them wherever you need, share and collaborate with friends, family,
+            and co-workers.
+          </p>
+          <form class="introduction__register">
+            <label class="introduction__textEmail" for="userEmail"
+              >Email:</label
+            >
+            <input
+              class="introduction__inputEmail"
+              type="email"
+              placeholder="Enter you email..."
+              id="userEmail"
+              required />
+            <button type="submit" class="introduction__btn">Get Started</button>
+          </form>
+        </div>
+        <div class="introduction__image">
+          <img src="images/illustration-1.svg" alt="ilustration 1" />
+        </div>
+      </section>
+    </main>
+    <!-- End__Fisrt-Section -->
   </body>
 </html>
