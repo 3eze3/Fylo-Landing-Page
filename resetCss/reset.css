@@ -3,7 +3,6 @@
 :root {
   --negro: #393939;
   --font-Barlow-Semi-Condensed: 'Open Sans', sans-serif;
-  --font-size-body: 13px
 }
 
 @media (prefers-color-scheme: dark) {
@@ -149,9 +148,8 @@ svg {
 
 body {
   min-height: 100vh;
-  font-size: var(--font-size-body);
+  font-size: 13px;
   font-family: var(--font-Barlow-Semi-Condensed);
-  font-weight: var(--weigth-400);
   color: var(--negro);
   line-height: 1.4em;
   -webkit-hyphens: auto;
