@@ -34,11 +34,12 @@
 }
 
 header,
-section {
+.content__introduction {
   padding-inline: 5.15rem;
   max-width: 90.9rem;
   margin-inline: auto;
 }
+
 
 img,
 picture,
