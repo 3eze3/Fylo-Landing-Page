@@ -81,7 +81,7 @@
   max-width: 50%;
 }
 
-.introduction__register {
+.register {
   width: 85%;
   position: relative;
   display: grid;
@@ -91,7 +91,7 @@
   gap: 1rem;
 }
 
-.introduction__textEmail {
+.register__textEmail {
   position: absolute;
   top: 0;
   left: 0;
@@ -99,7 +99,7 @@
   visibility: hidden;
 }
 
-.introduction__inputEmail {
+.register__inputEmail {
   outline: solid #000 1px;
   padding-block: .8rem;
   padding-left: 1rem;
@@ -112,7 +112,7 @@
 }
 
 
-.introduction__btn {
+.register__btn {
   padding: .98rem;
   font-size: .95em;
   font-weight: var(--weight-600);
@@ -131,7 +131,7 @@
   -o-transition: opacity .2s ease-in-out, box-shadow .2s ease-in-out;
 }
 
-.introduction__btn:hover {
+.register__btn:hover {
   cursor: pointer;
   opacity: .8;
   box-shadow: 0 .5rem .188rem rgba(7, 4, 57, 0.129), 0 .063rem .125rem rgba(7, 4, 57, 0.209);
@@ -224,6 +224,7 @@
   -ms-border-radius: .75rem;
   -o-border-radius: .75rem;
   background-color: #fff;
+  margin-bottom: 1.2rem;
 }
 
 .testimonials__imageQuote {
@@ -278,4 +279,33 @@
 
 .feature__image {
   flex: 45%;
+}
+
+/* Section Acess */
+.content__access {
+  outline: solid red 1px;
+  background-color: var(--desaturated-blue);
+}
+
+
+.access__wrapper {
+  display: flex;
+  padding: 8rem;
+}
+
+.access__information {}
+
+.access__title {}
+
+.access__description {}
+
+.access__register {
+  width: 70%;
+  outline: solid red 1px;
+  grid-template-columns: repeat(auto-fit, minmax(1fr, 80rem));
+  justify-content: flex-start;
+}
+
+.register__inputEmail--access {
+  background-color: #fff;
 }
