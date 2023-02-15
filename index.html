@@ -53,17 +53,15 @@
             them wherever you need, share and collaborate with friends, family,
             and co-workers.
           </p>
-          <form class="introduction__register">
-            <label class="introduction__textEmail" for="userEmail"
-              >Email:</label
-            >
+          <form action="#" class="introduction__register register">
+            <label class="register__textEmail" for="userEmail">Email:</label>
             <input
-              class="introduction__inputEmail"
+              class="register__inputEmail"
               type="email"
               placeholder="Enter you email..."
               id="userEmail"
               required />
-            <button type="submit" class="introduction__btn">Get Started</button>
+            <button type="submit" class="register__btn">Get Started</button>
           </form>
         </div>
         <div class="introduction__image">
@@ -71,7 +69,6 @@
         </div>
       </section>
       <img src="images/bg-curve-desktop.svg" alt="curve imagine" />
-      <!-- Section 2 -->
       <section class="content__feature feature">
         <article class="feature__productive">
           <div class="feature__wrapper">
@@ -116,9 +113,26 @@
         </article>
       </section>
       <!-- Tercera seccion  -->
-      <section class="">
-        <div>
-          <h3>Get early access today</h3>
+      <section class="content__access access">
+        <div class="access__wrapper">
+          <div class="access__information">
+            <h3 class="access__title">Get early access today</h3>
+            <p class="access__description">
+              It only takes a minute to sign up and our free starter tier is
+              extremely generous. If you have any questions, our support team
+              would be happy to help you.
+            </p>
+          </div>
+          <form action="#" class="access__register register">
+            <label class="register__textEmail" for="userEmail">Email:</label>
+            <input
+              class="register__inputEmail register__inputEmail--access"
+              type="email"
+              placeholder="Enter you email..."
+              id="userEmail"
+              required />
+            <button type="submit" class="register__btn">Get Started</button>
+          </form>
         </div>
       </section>
     </main>
