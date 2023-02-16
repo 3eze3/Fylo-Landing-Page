@@ -281,31 +281,52 @@
   flex: 45%;
 }
 
-/* Section Acess */
 .content__access {
-  outline: solid red 1px;
   background-color: var(--desaturated-blue);
 }
 
 
 .access__wrapper {
+  padding-block: 6.5rem;
+  padding-right: 10.5rem;
+  padding-left: 8rem;
   display: flex;
-  padding: 8rem;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.access__information {}
+.access__information {
+  flex-basis: 39%;
+  color: #fff;
+}
 
-.access__title {}
+.access__title {
+  font-family: var(--font-family-Raleway);
+  font-size: 2.25em;
+  font-weight: var(--weight-600);
+}
 
-.access__description {}
+.access__description {
+  margin-top: 1.5rem;
+  font-family: var(--font-Open-Sans);
+  font-size: 1.1em;
+  font-weight: var(--weight-400);
+  line-height: 1.5;
+}
 
 .access__register {
-  width: 70%;
-  outline: solid red 1px;
-  grid-template-columns: repeat(auto-fit, minmax(1fr, 80rem));
-  justify-content: flex-start;
+  flex-basis: 38%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .register__inputEmail--access {
+  width: 100%;
   background-color: #fff;
+}
+
+.register__btn--access {
+  width: 40%;
 }
