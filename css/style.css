@@ -407,9 +407,10 @@
   gap: 1rem;
 }
 
-.social__link {
-  width: 1.9rem;
-  height: 1.9rem;
+.social__item {
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: .75rem;
   display: inline-flex;
   justify-content: center;
   align-items: center;
