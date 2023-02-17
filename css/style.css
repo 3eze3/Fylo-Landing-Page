@@ -420,6 +420,8 @@
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
+  filter: brightness(0) invert(100%);
+  -webkit-filter: brightness(0) invert(100%);
 }
 
 @media screen and (max-width:480px) {
