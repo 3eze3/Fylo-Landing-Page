@@ -411,7 +411,7 @@
   width: 2.5rem;
   height: 2.5rem;
   padding: .75rem;
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   outline: solid #fff 1px;
