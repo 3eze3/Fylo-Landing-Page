@@ -407,10 +407,11 @@
   gap: 1rem;
 }
 
-.social__link {
-  width: 1.9rem;
-  height: 1.9rem;
-  display: inline-flex;
+.social__item {
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: .75rem;
+  display: flex;
   justify-content: center;
   align-items: center;
   outline: solid #fff 1px;
@@ -419,6 +420,8 @@
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
+  filter: brightness(0) invert(100%);
+  -webkit-filter: brightness(0) invert(100%);
 }
 
 @media screen and (max-width:480px) {
