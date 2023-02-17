@@ -39,6 +39,15 @@ header,
   margin-inline: auto;
 }
 
+@media screen and (max-width:480px) {
+
+  header,
+  .content__introduction {
+    padding-inline: 1.49rem;
+    max-width: 90.9rem;
+    margin-inline: auto;
+  }
+}
 
 img,
 picture,
